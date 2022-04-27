@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L unisims_ver -L unimacro_ver -L secureip -L xbip_utils_v3_0_6 -L xbip_pipe_v3_0_2 -L xbip_bram18k_v3_0_2 -L mult_gen_v12_0_11 -L axi_lite_ipif_v3_0_4 -L tri_mode_ethernet_mac_v9_0_5 -L xil_defaultlib -work xil_defaultlib xil_defaultlib.mac_ip xil_defaultlib.glbl -o mac_ip_opt

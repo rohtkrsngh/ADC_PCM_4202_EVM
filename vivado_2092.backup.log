@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Sep 28 14:33:23 2019
+# Process ID: 2092
+# Current directory: I:/ac701_SAC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3992 I:\ac701_SAC\mac_ip_example.xpr
+# Log file: I:/ac701_SAC/vivado.log
+# Journal file: I:/ac701_SAC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project I:/ac701_SAC/mac_ip_example.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:53 . Memory (MB): peak = 887.051 ; gain = 225.723
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 28 15:29:43 2019...

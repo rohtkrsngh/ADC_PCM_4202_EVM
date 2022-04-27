@@ -1,0 +1,15 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+Block Memory Generator module demo_tb.dut.U3.U4.inst.native_mem_module.blk_mem_gen_v8_3_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Note: Timing checks are not valid
+
+Time: 0 ps  Iteration: 0  Process: /demo_tb/p_management  File: E:/ac701_SAC/mac_ip_example.srcs/sim_1/imports/mac_ip/simulation/demo_tb.vhd
+Note: Resetting core...
+
+Time: 0 ps  Iteration: 0  Process: /demo_tb/p_management  File: E:/ac701_SAC/mac_ip_example.srcs/sim_1/imports/mac_ip/simulation/demo_tb.vhd
+Note: Timing checks are valid
+
+Time: 400 ns  Iteration: 0  Process: /demo_tb/p_management  File: E:/ac701_SAC/mac_ip_example.srcs/sim_1/imports/mac_ip/simulation/demo_tb.vhd

@@ -1,0 +1,160 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 80d905714e3b41529c91a1736292caeb --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L fifo_generator_v13_1_1 -L xbip_utils_v3_0_6 -L xbip_pipe_v3_0_2 -L xbip_bram18k_v3_0_2 -L mult_gen_v12_0_11 -L axi_lite_ipif_v3_0_4 -L tri_mode_ethernet_mac_v9_0_5 -L blk_mem_gen_v8_3_3 -L unisims_ver -L unimacro_ver -L secureip --snapshot demo_tb_behav xil_defaultlib.demo_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v:2414]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v:2415]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_signed
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package tri_mode_ethernet_mac_v9_0_5.tx_pack
+Compiling package tri_mode_ethernet_mac_v9_0_5.common_pack
+Compiling package tri_mode_ethernet_mac_v9_0_5.ptp_pack
+Compiling package tri_mode_ethernet_mac_v9_0_5.rx_pack
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture ibufds_v of entity unisim.IBUFDS [\IBUFDS(1,9,1,5,1,1,1,4,1,7)\]
+Compiling architecture behavioral of entity xil_defaultlib.packet_rx [packet_rx_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=5.25,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.dcm_last_clk_wiz
+Compiling module xil_defaultlib.dcm_last
+Compiling architecture behavioral of entity xil_defaultlib.sel_clk_Mod [sel_clk_mod_default]
+Compiling architecture behavioral of entity xil_defaultlib.tx2 [tx2_default]
+Compiling architecture behavioral of entity xil_defaultlib.reset_generator [reset_generator_default]
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_output_stage(...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_output_stage(...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3(C_FAMILY="art...
+Compiling module xil_defaultlib.mac_data_bram
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_sync_stag...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_bhv_ver_a...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_CONV_VER(...
+Compiling module fifo_generator_v13_1_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1(C_DATA_CO...
+Compiling module xil_defaultlib.fifo1
+Compiling architecture behavioral of entity xil_defaultlib.ref_p [ref_p_default]
+Compiling architecture behavioral of entity xil_defaultlib.trp_pulse [trp_pulse_default]
+Compiling architecture behavioral of entity xil_defaultlib.RF1_Pulse [rf1_pulse_default]
+Compiling architecture behavioral of entity xil_defaultlib.Trig_Pulse_gen [trig_pulse_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.pulse_dist [pulse_dist_default]
+Compiling architecture behavioral of entity xil_defaultlib.psu_on_off_100ms [psu_on_off_100ms_default]
+Compiling architecture behavioral of entity xil_defaultlib.DUT_signal_modle [dut_signal_modle_default]
+Compiling architecture behavioral of entity xil_defaultlib.pcpu_gen [pcpu_gen_default]
+Compiling architecture beh of entity xil_defaultlib.tx_u [tx_u_default]
+Compiling architecture behavioral of entity xil_defaultlib.meta_harden [meta_harden_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_baud_gen [uart_baud_gen_default]
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_sync_stag...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_bhv_ver_a...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_CONV_VER(...
+Compiling module fifo_generator_v13_1_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1(C_DATA_CO...
+Compiling module xil_defaultlib.fifo_data
+Compiling architecture behavioral of entity xil_defaultlib.uart_rx_ctl [uart_rx_ctl_default]
+Compiling architecture behavioral of entity xil_defaultlib.UART_MAC_TOP [uart_mac_top_default]
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_sync_stag...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_bhv_ver_a...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1_CONV_VER(...
+Compiling module fifo_generator_v13_1_1.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_1.fifo_generator_v13_1_1(C_DATA_CO...
+Compiling module xil_defaultlib.fifo_wbb
+Compiling architecture behavioral of entity xil_defaultlib.rx_info_schd [rx_info_schd_default]
+Compiling architecture uart_mac_bridge_top_a of entity xil_defaultlib.UART_MAC_BRIDGE_TOP [uart_mac_bridge_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.Packet_TX [packet_tx_default]
+Compiling architecture bufgce_v of entity unisim.BUFGCE [\BUFGCE(1,4)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structural of entity xil_defaultlib.mac_ip_sync_block [mac_ip_sync_block_default]
+Compiling architecture fdpe_v of entity unisim.FDPE [fdpe_default]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_reset_sync [mac_ip_reset_sync_default]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkin1_period=5.0,cl...]
+Compiling architecture xilinx of entity xil_defaultlib.mac_ip_clk_wiz [mac_ip_clk_wiz_default]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_example_design_clocks [mac_ip_example_design_clocks_def...]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_example_design_resets [mac_ip_example_design_resets_def...]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_axi_lite_sm [mac_ip_axi_lite_sm_default]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkin1_period=8.0,cl...]
+Compiling architecture xilinx of entity xil_defaultlib.mac_ip_support_clocking [mac_ip_support_clocking_default]
+Compiling architecture xilinx of entity xil_defaultlib.mac_ip_support_resets [mac_ip_support_resets_default]
+Compiling architecture idelayctrl_v of entity unisim.IDELAYCTRL [\IDELAYCTRL(1,7)\]
+Compiling architecture structural of entity xil_defaultlib.mac_ip_block_sync_block [mac_ip_block_sync_block_default]
+Compiling architecture iddr_v of entity unisim.IDDR [\IDDR(ddr_clk_edge="SAME_EDGE_PI...]
+Compiling architecture iobuf_v of entity unisim.IOBUF [\IOBUF(1,7,1,4)\]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9,1,7,1,4)\]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9,1,1,1,4,1,7)\]
+Compiling architecture oddr_v of entity unisim.ODDR [\ODDR(ddr_clk_edge="SAME_EDGE")(...]
+Compiling architecture bufio_v of entity unisim.BUFIO [bufio_default]
+Compiling architecture bufr_v of entity unisim.BUFR [\BUFR(1,6,1,7)\]
+Compiling architecture idelaye2_v of entity unisim.IDELAYE2 [\IDELAYE2(1,5,1,7,1,5,1,5,1,5,1,...]
+Compiling architecture phy_if of entity xil_defaultlib.mac_ip_rgmii_v2_0_if [mac_ip_rgmii_v2_0_if_default]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=11...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_min_size=...]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_axi4_lite_ipif_wrapper [mac_ip_axi4_lite_ipif_wrapper_de...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_sync_reset [tri_mode_ethernet_mac_v9_0_5_syn...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_sync_reset [\tri_mode_ethernet_mac_v9_0_5_sy...]
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_gmi...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_gmi...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_ipi...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_tx_...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_rx_...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_rx_...
+Compiling module unisims_ver.LUT4
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_tx_...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_pfc...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_rx_...
+Compiling architecture structural of entity tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_sync_block [tri_mode_ethernet_mac_v9_0_5_syn...]
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_tx_...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_con...
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.CRC32_8 [crc32_8_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.TX_STATE_MACH [\TX_STATE_MACH(c_half_duplex=fal...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_tx [\tri_mode_ethernet_mac_v9_0_5_tx...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.STATE_MACHINES [state_machines_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.DECODE_FRAME [decode_frame_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.PARAM_CHECK [param_check_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_rx [\tri_mode_ethernet_mac_v9_0_5_rx...]
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_con...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_mii...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_man...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_int...
+Compiling module unisims_ver.RAM64X1D
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.SRL16E
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_add...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5_add...
+Compiling module tri_mode_ethernet_mac_v9_0_5.tri_mode_ethernet_mac_v9_0_5(C_S...
+Compiling architecture wrapper of entity xil_defaultlib.mac_ip_block [mac_ip_block_default]
+Compiling architecture wrapper of entity xil_defaultlib.mac_ip [mac_ip_default]
+Compiling architecture wrapper of entity xil_defaultlib.mac_ip_support [mac_ip_support_default]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_bram_tdp [\mac_ip_bram_tdp(data_width=9)\]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_tx_client_fifo [\mac_ip_tx_client_fifo(full_dupl...]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_rx_client_fifo [mac_ip_rx_client_fifo_default]
+Compiling architecture rtl of entity xil_defaultlib.mac_ip_ten_100_1g_eth_fifo [mac_ip_ten_100_1g_eth_fifo_defau...]
+Compiling architecture wrapper of entity xil_defaultlib.mac_ip_fifo_block [mac_ip_fifo_block_default]
+Compiling architecture wrapper of entity xil_defaultlib.eth_rgmii [eth_rgmii_default]
+Compiling architecture behavioral of entity xil_defaultlib.reset_self_gen [reset_self_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.trp_self_gen [trp_self_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.tx_9_6K [tx_9_6k_default]
+Compiling architecture behavioral of entity xil_defaultlib.pcpu_status_gen [pcpu_status_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.psu_on_off_self_data [psu_on_off_self_data_default]
+Compiling architecture behavioral of entity xil_defaultlib.top [top_default]
+Compiling architecture behav of entity xil_defaultlib.demo_tb
+Built simulation snapshot demo_tb_behav

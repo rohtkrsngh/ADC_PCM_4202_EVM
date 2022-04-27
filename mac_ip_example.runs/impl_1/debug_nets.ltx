@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="1" minor="2">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="8"/>
+      </probeOptions>
+      <nets>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[7]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[6]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[5]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[4]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[3]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[2]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[1]"/>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/din[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/rxd_clk_rx"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="2"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="U4/U1_UMC/uart_rx_ctl_i0/ce_name/wr_en"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>

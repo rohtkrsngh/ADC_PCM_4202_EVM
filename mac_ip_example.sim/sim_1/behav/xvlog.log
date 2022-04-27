@@ -1,0 +1,128 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_base
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_dpdistram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_dprom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_sdpram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_spram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_sprom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_memory_tdpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v13_1_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-2458] undeclared symbol wr_eop_ad, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1321]
+INFO: [VRFC 10-2458] undeclared symbol rd_eop_ad, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1322]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_axis, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1561]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_axis, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:1562]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wach, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2087]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wach, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2088]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wdch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2307]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wdch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2308]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_wrch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2474]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_wrch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2475]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_rach, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2854]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_rach, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:2855]
+INFO: [VRFC 10-2458] undeclared symbol wr_rst_busy_rdch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:3087]
+INFO: [VRFC 10-2458] undeclared symbol rd_rst_busy_rdch, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:3088]
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_ss
+INFO: [VRFC 10-2458] undeclared symbol srst_wrst_busy, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/simulation/fifo_generator_vlog_beh.v:7752]
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1_axic_reg_slice
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/hdl/fifo_generator_v13_1_rfs.v" into library fifo_generator_v13_1_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_1_1
+INFO: [VRFC 10-2458] undeclared symbol sleep_i, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/fifo_generator_v13_1_1/hdl/fifo_generator_v13_1_rfs.v:519]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/fifo_data/sim/fifo_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/tri_mode_ethernet_mac_v9_0_5/hdl/tri_mode_ethernet_mac_v9_0_rfs.v" into library tri_mode_ethernet_mac_v9_0_5
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_config_stat
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_cpu_reclock
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_ptp_pkt_buff
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_cpu_logic
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_mac_logic
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_ptp_pkt_buff
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_cpu_logic
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_mac_logic
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_ptp_pkt_buff
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rtc
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rtc_to_1722_conv
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rtc_config
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_arbiter
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_credit_count
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_packet_control
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_packet_count
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rate_control_top
+INFO: [VRFC 10-2458] undeclared symbol data_valid_out, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/tri_mode_ethernet_mac_v9_0_5/hdl/tri_mode_ethernet_mac_v9_0_rfs.v:5830]
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_arbiter
+INFO: [VRFC 10-2458] undeclared symbol stream_has_credit, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/tri_mode_ethernet_mac_v9_0_5/hdl/tri_mode_ethernet_mac_v9_0_rfs.v:6011]
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_axi_shim
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_timer_resync
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_timer_sample
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_timer_tx_lat_corr
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_timer_tx_lat_tod
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_gmii_mii_rx
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_gmii_mii_tx
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_sync_req
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_pause
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_cntl
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_pfc_tx_cntl
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_cntl
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_control
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_config
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_miim
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_management
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_addr_compare
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_addr_filter
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_addr_filter_wrap
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_ipic_mux
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_ipic_mux_top
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_ipic_mux_avb
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_rx_axi_intf
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_axi_intf
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_tx_axi_intf_2g5
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_int_ctrl
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5_eth_avb_endpoint
+INFO: [VRFC 10-2458] undeclared symbol rx_clk_en, assumed default net type wire [E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/tri_mode_ethernet_mac_v9_0_5/hdl/tri_mode_ethernet_mac_v9_0_rfs.v:17420]
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_v9_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/fifo_wbb/sim/fifo_wbb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_wbb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/dcm_last/dcm_last_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dcm_last_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/dcm_last/dcm_last.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dcm_last
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v" into library blk_mem_gen_v8_3_3
+INFO: [VRFC 10-311] analyzing module STATE_LOGIC_v8_3
+INFO: [VRFC 10-311] analyzing module beh_vlog_muxf7_v8_3
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_clr_v8_3
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_pre_v8_3
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_ce_clr_v8_3
+INFO: [VRFC 10-311] analyzing module write_netlist_v8_3
+INFO: [VRFC 10-311] analyzing module read_netlist_v8_3
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_write_wrapper_beh_v8_3
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_read_wrapper_beh_v8_3
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_regs_fwd_v8_3
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_3_3_output_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_3_3_softecc_output_reg_stage
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_3_3_mem_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_3_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/mac_data_bram/sim/mac_data_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac_data_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/fifo1/sim/fifo1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ac701_SAC/mac_ip_example.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

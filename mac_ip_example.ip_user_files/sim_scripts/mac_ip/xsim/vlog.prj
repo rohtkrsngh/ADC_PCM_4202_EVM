@@ -1,0 +1,5 @@
+verilog tri_mode_ethernet_mac_v9_0_5 "../../../ipstatic/tri_mode_ethernet_mac_v9_0_5/hdl/tri_mode_ethernet_mac_v9_0_rfs.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

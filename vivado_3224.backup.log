@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Oct 22 10:46:02 2019
+# Process ID: 3224
+# Current directory: I:/ac701_SAC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3600 I:\ac701_SAC\mac_ip_example.xpr
+# Log file: I:/ac701_SAC/vivado.log
+# Journal file: I:/ac701_SAC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project I:/ac701_SAC/mac_ip_example.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:46 ; elapsed = 00:00:57 . Memory (MB): peak = 868.078 ; gain = 207.676
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'I:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/mac_ip/mac_ip.xci' is already up-to-date
+INFO: [HDL 9-1061] Parsing VHDL file "I:/ac701_SAC/mac_ip_example.srcs/sources_1/imports/rtl_files/UART_MAC_Bridge_Top.vhd" into library xil_defaultlib [I:/ac701_SAC/mac_ip_example.srcs/sources_1/imports/rtl_files/UART_MAC_Bridge_Top.vhd:1]
+[Tue Oct 22 11:41:37 2019] Launched synth_1...
+Run output will be captured here: I:/ac701_SAC/mac_ip_example.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'I:/ac701_SAC/mac_ip_example.srcs/sources_1/ip/mac_ip/mac_ip.xci' is already up-to-date
+[Tue Oct 22 11:46:06 2019] Launched impl_1...
+Run output will be captured here: I:/ac701_SAC/mac_ip_example.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 22 12:37:43 2019...
